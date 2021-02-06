@@ -1,0 +1,15 @@
+
+
+POST http://localhost:7071/api/todo
+Content-Type: application/json
+
+{
+    "description": "Etudie"
+}
+
+GET http://localhost:7071/api/todo
+Content-Type: application/json
+
+{
+    "description": "Etudie"
+}
